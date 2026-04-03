@@ -1,1 +1,24 @@
 /* Add CSS Styling */
+.clase1 {
+    background-color: red;
+}
+
+#id1 {
+ color:blue;
+ font-size:30px;
+}
+
+.classelegal {
+    background-color: red;
+    font-size: 20px;
+}
+
+#id2 {
+    background-color: green;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.clase3 {
+    background-color: red
+}
