@@ -1,20 +1,20 @@
-# A Basic Header
+# Um cabeçalho básico
 
-Use flexbox rules to create this very common webpage header style. The benefit to using flex here is that everything should be _flexible_. Check out the two screenshots below to get an idea of how it should scale with your screen. Besides flex rules, you'll also want to add some rules for margin and padding. (Hint: `ul`s have some default margin/padding that you will need to deal with.)
+Use regras do Flexbox para criar este estilo muito comum de cabeçalho de página. A vantagem de usar Flexbox aqui é que tudo deve ser _flexível_. Veja as duas capturas de tela abaixo para ter uma ideia de como ele deve se adaptar ao tamanho da sua tela. Além das regras do Flexbox, você também precisará adicionar algumas regras para margem e preenchimento. (Dica: os elementos `ul` têm valores padrão de margem e preenchimento com os quais você precisará lidar.)
 
-## Desired Outcome
+## Resultado desejado
 
-narrow:
-![narrow](./desired-outcome-narrow.png)
+estreita:
+![estreita](./desired-outcome-narrow.png)
 
-wide: 
-![wide](./desired-outcome-wide.png)
+larga:
+![larga](./desired-outcome-wide.png)
 
-### Self Check
-- There is space between all items and the edge of the header (specific px amount doesn't matter here).
-- Logo is centered vertically and horizontally.
-- list-items are horizontal, and are centered vertically inside the header.
-- left-links and right-links are pushed all the way to the left and right, and stay at the edge of the header when the page is resized.
-- Your solution does not use floats, inline-block, or absolute positioning.
+### Autoavaliação
+- Há espaço entre todos os itens e a borda do cabeçalho (a quantidade exata de pixels não importa neste caso).
+- O logotipo está centralizado vertical e horizontalmente.
+- Os itens da lista estão dispostos horizontalmente e centralizados verticalmente dentro do cabeçalho.
+- Os links da esquerda e da direita são empurrados totalmente para a esquerda e para a direita, permanecendo nas bordas do cabeçalho quando a página é redimensionada.
+- Sua solução não usa `float`, `inline-block` nem posicionamento absoluto.
 
-- Note: For this exercise, it's completely acceptable to not match the font-family.
+- Observação: para este exercício, é totalmente aceitável não reproduzir a família de fontes.
