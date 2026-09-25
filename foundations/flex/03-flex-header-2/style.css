@@ -9,9 +9,13 @@ body {
 }
 
 .header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  padding: 8px;
 }
 
 .profile-image {
@@ -45,4 +49,21 @@ a {
 
 ul {
   list-style-type: none;
+}
+
+.links{
+  display: flex;
+  justify-content: center;
+  gap:16px
+}
+
+.alinhardireita{
+  display: flex;
+  gap: 16px;
+  flex: 0 0 auto;
+}
+
+.alinharesquerda{
+  display: flex;
+  flex: 1 0 auto;
 }
